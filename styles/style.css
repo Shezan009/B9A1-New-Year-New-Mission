@@ -1,0 +1,77 @@
+.container {
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 177px;
+    padding-right: 530px;
+    padding-left: 530px;
+    padding-bottom: 16px;
+}
+
+.banner-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+.greeting-offer {
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+    text-align: center;
+    
+
+}
+
+.offer {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.offer-title {
+    color: #F00;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer-text {
+    color: #F00;
+    font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 16px;
+
+
+}
+
+.offer-category {
+    color: #070211;
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 0;
+padding-bottom: 48px;
+
+
+}
