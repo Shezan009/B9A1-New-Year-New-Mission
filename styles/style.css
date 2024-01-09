@@ -376,7 +376,7 @@ header {
 .contacts {
 
     display: flex;
-
+    gap: 400px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -384,12 +384,69 @@ header {
     font-weight: 500;
     line-height: 40px;
     /* 166.667% */
+    margin-bottom: 60px;
+}
+
+.address{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.web{
+    margin-top: 120px;
+    margin-right: 180px;
+}
+
+
+
+.social-links{
+    text-align: center;
+}
+
+
+.rights {
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: left 140px; ;
 }
 
 .unsubs-bttn {
-    color: yellowgreen font-family: Inter;
+    background: blueviolet   
+    color: #FFF
+    font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    
+    
+    
+}
+
+
+.unsubs {
+    display: flex;
+    gap: 600px;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+
+.line-container {
+    width: 1320px;
+height: 1px;
+background: blue
+
+}
+
+.styled-line{
+    gap: 160px;
+    width: 1320px;
+height: 1px;
+background: blue
 }
