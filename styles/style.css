@@ -40,7 +40,7 @@ header {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -56,7 +56,7 @@ header {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
@@ -253,12 +253,13 @@ header {
 
 
 .container5 {
+    margin-bottom: auto;
     width: 1320px;
     height: 616px;
     flex-shrink: 0;
     border-radius: 16px;
     margin: auto;
-    background: blueviolet
+    background: rgb(220, 201, 238)
 }
 
 .mail {
@@ -387,19 +388,19 @@ header {
     margin-bottom: 60px;
 }
 
-.address{
+.address {
     margin-top: 120px;
     margin-left: 100px;
 }
 
-.web{
+.web {
     margin-top: 120px;
     margin-right: 180px;
 }
 
 
 
-.social-links{
+.social-links {
     text-align: center;
 }
 
@@ -407,25 +408,24 @@ header {
 .rights {
     color: #FFF;
 
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin: left 140px; ;
-}
-
-.unsubs-bttn {
-    background: blueviolet   
-    color: #FFF
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    
-    
-    
+    margin: left 140px;
+    ;
+}
+
+.unsubs-bttn {
+    background: blueviolet color: #FFF font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+
 }
 
 
@@ -439,14 +439,13 @@ margin: left 140px; ;
 
 .line-container {
     width: 1320px;
-height: 1px;
-background: blue
-
+    height: 1px;
+    background: blue
 }
 
-.styled-line{
+.styled-line {
     gap: 160px;
     width: 1320px;
-height: 1px;
-background: blue
+    height: 1px;
+    background: blue
 }
