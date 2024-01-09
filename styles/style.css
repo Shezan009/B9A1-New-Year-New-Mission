@@ -9,6 +9,7 @@ header {
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
+    margin: auto;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     vertical-align: middle;
 }
@@ -21,7 +22,14 @@ header {
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
+    margin: auto;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
     /* width: 100%; */
     /* max-width: 1320px; */
     /* max-height: 600px; */
@@ -64,9 +72,10 @@ header {
 
 .container2 {
     width: 1320px;
-    height: 600px;
+    height: 920px;
     flex-shrink: 0;
     border-radius: 16px;
+    margin: auto;
 }
 
 .section-heading {
@@ -85,7 +94,7 @@ header {
 }
 
 .section-text {
-    color: #F00;
+    color: rgb(213, 20, 120);
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 16px;
@@ -99,14 +108,156 @@ header {
     padding-bottom: 48px;
 }
 
-.image-happy {
+
+.section-image2 {
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    padding-left: 250px;
-    padding-right: 600px;
-    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 120px;
+}
+
+
+.container3 {
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    padding-top: 246px;
+    margin-bottom: 0px;
+}
+
+.party-greetings {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding-left: 126px;
+    padding-bottom: 24;
+}
+
+
+.party-text {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding-left: 126px;
+
+
+
+}
+
+
+.btn-primary {
+    color: #e61010;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 158px;
+
+
+}
+
+
+
+.container4 {
+    width: 1320px;
+    height: 1200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin: auto;
+}
+
+
+
+.section4-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    padding: 0px;
+    /* margin: 0px; */
+}
+
+
+
+.section4-title {
+
+    
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: auto;
+    margin-bottom: 16px;
+
+}
+
+
+.section4-text {
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    
+    margin-bottom: 22px;
+
+}
+
+
+
+
+.section4-details {
+
+    width: 896px;
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+
+
+.container5 {
+    width: 1320px;
+    height: 920px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin: auto;
 }
 
 
@@ -114,8 +265,26 @@ header {
 
 
 
+.section5-title{
+    color: #070211;
 
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
 
-.party-greetings {
-    padding-top: 0;
+.section5-text {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
 }
